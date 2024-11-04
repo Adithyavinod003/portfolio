@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Page</title>
+    </head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #00d0ff;
+           
+            width: 200px;
+            padding: 10px 500px;
+            line-height: 30px;
+        }
+        form {
+            margin: 20px;
+        }
+        label {
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        input[type="text"], input[type="number"], input[type="date"] {
+            margin-bottom: 15px;
+            padding: 5px;
+            width: 300px;
+        }
+        input[type="submit"] {
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+        }
+        </style>
+
+<body>
+    <h2>SignUp</h2>
+    <form onsubmit=handleSubmit(even)>
+    <fieldset>  
+      <legend>SignUp</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter  Name" required=""><br>
+
+        <label for="email">Email Id:</label>
+        <input type="text" id="email" name="Email" placeholder="Enter Email Id" required=""><br>
+
+        <label for="Password">Password:</label>
+        <input type="text" id="psw" name="psw" placeholder="Enter password" required=""><br>
+        <label for="cnfPassword">confirm Password:</label>
+        <input type="text" id="cnfpsw" name="cnfpsw" placeholder="Enter cnfpassword" required=""><br>
+        
+       
+
+        <input type="submit" value="Submit">
+        
+        
+        </fieldset>
+    </form>
+    </body>
+    </html>

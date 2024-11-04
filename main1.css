@@ -1,0 +1,63 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #232f3e;
+    color: #fff;
+    padding: 0.5rem;
+    border-bottom: 1px solid #444;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  border-bottom: 1px solid #444;
+}
+.logo{
+  margin:0 1rem;
+}
+.logo svg{
+  width:100px;
+  height: auto;
+}
+.center {
+    display: flex;
+    align-items: center;
+}
+  #departments {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    margin: 0 1rem;
+  }
+  
+  input[type="search"] {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    width: 20rem;
+  }
+  
+  .search-btn {
+    background-color: #f7f7f7;
+    color: #333;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .account, .orders, .cart {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 1rem;
+  }
+ 
